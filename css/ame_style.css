@@ -1,0 +1,128 @@
+/* Body */
+body{
+  background-color: #f4ebc1;
+}
+/* Profile picture and name section. */
+.abmc{
+  margin-top: 150px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.feviprofile{
+  width: 20vw;
+}
+.my_name{
+  font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	text-align: left;
+}
+.my_role{
+  font-family: 'Indie Flower', cursive;
+	font-weight: bold;
+	color: #ff1e56;
+	text-align: left;
+}
+.me{
+  font-family: 'Indie Flower', cursive;
+	text-align: justify;
+  font-size: 2vh;
+}
+/* phone and skills section */
+.p{
+  text-align: left;
+  margin-top: 40px;
+}
+.phone{
+  display: flex;
+}
+.gm{
+  margin-left: 120px;
+}
+/* Media Query */
+@media (max-width:500px){
+  .abmc{
+    margin-top: 50px;
+  }
+  .feviprofile{
+    margin-top: 0px;
+    width: 30vw;
+  }
+  .sfk{
+    margin-top: 20px;
+  }
+  .my_name{
+    text-align: center;
+  }
+  .my_role{
+    text-align: center;
+  }
+  .p{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .phone{
+    display: block;
+  }
+  .gm{
+    margin-left: 0px;
+  }
+}
+@media (max-width:900px) and (min-width:500px){
+  .abmc{
+    margin-top: 70px;
+  }
+  .feviprofile{
+    margin-top: 0px;
+    width: 30vw;
+  }
+  .sfk{
+    margin-top: 20px;
+  }
+  .my_name{
+    text-align: center;
+  }
+  .my_role{
+    text-align: center;
+  }
+  .p{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .phone{
+    display: block;
+  }
+  .gm{
+    margin-left: 0px;
+  }
+}
+@media (max-width:1199px) and (min-width:900px){
+  .abmc{
+    margin-top: 30px;
+  }
+  .feviprofile{
+    margin-top: 0px;
+    width: 30vw;
+  }
+  .sfk{
+    margin-top: 20px;
+  }
+  .my_name{
+    text-align: center;
+  }
+  .my_role{
+    text-align: center;
+  }
+  .p{
+    text-align: center;
+    margin-top: 0px;
+  }
+  .phone{
+    display: block;
+  }
+  .gm{
+    margin-left: 0px;
+  }
+}
